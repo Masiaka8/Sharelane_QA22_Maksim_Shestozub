@@ -31,9 +31,9 @@ public class SharelaneTests {
         //    Thread.sleep(5000);
 
         zipCodeInput = driver.findElement(By.name("zip_code"));
-        Assert.assertFalse(zipCodeInput.isDisplayed());
+        Assert.assertEquals(zipCodeInput.isDisplayed(), false);
 
         WebElement firstNameInput = driver.findElement(By.name("first_name"));
-        Assert.assertTrue(firstNameInput.isDisplayed());
+        Assert.assertEquals(firstNameInput.isDisplayed(), true);
     }
 }
