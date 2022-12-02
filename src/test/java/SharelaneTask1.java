@@ -19,7 +19,7 @@ public class SharelaneTask1 {
     }
 
     @Test
-    public void firstTest() throws InterruptedException {
+    public void negativeZipCodeTest() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();

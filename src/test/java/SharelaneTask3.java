@@ -19,7 +19,7 @@ public class SharelaneTask3 {
     }
 
     @Test
-    public void firstTest() throws InterruptedException {
+    public void negativeSignUpTest() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
